@@ -102,8 +102,7 @@ a {
 }
 .nav_list > li:first-child {
   background-color: var(--backgroundActive);
-  border-top: #fff solid 1px;
-}
+ }
 .label {
   padding: 1px;
   min-width: 22px;
