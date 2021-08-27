@@ -32,7 +32,7 @@ html[data-theme="5"] {
 }
 html[data-theme="6"] {
   --backgroundColor: #292929;
-  --backgroundActive: #292929;
+  --backgroundActive: #222;
   --textColor: #fff;
 }
 .colors {
