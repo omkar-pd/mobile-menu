@@ -32,7 +32,7 @@ html[data-theme="5"] {
 }
 html[data-theme="6"] {
   --backgroundColor: #292929;
-  --backgroundActive: #292929;
+  --backgroundActive: #222;
   --textColor: #fff;
 }
 .colors {
@@ -102,7 +102,9 @@ a {
 }
 .nav_list > li:first-child {
   background-color: var(--backgroundActive);
-  border-top: #fff solid 1px;
+}
+.nav_list li:hover {
+  background-color: var(--backgroundActive);
 }
 .label {
   padding: 1px;
@@ -133,6 +135,10 @@ a {
   padding: 6px 0px 6px 27px;
   border-bottom: 0px;
 }
+.dropdown li:hover{
+  background-color: transparent;
+}
+
 .dropdown li a {
   color: #fff;
 }
